@@ -1,0 +1,87 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #000;
+  font-family: 'Liu Jian Mao Cao', cursive;
+  text-shadow: 3px 0 #eee;
+
+}
+
+footer, footer a {
+  font-family: sans-serif;
+  color: gray;
+}
+
+
+
+.a {
+  background-image: url(img/cat.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.s {
+  background-image: url(img/hawk.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.d {
+  background-image: url(img/piano.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.f {
+  background-image: url(img/ape.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.g {
+  background-image: url(img/electroshock.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.x {
+
+}
+
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #000;
+  font-size: 5rem;
+  font-family: Arial, sans-serif;
+  line-height: 2;
+  font-weight: 900;
+  color: maroon;
+  display: inline-block;
+  width: 120px;
+  height: 300px;
+  text-align: center;
+  background-color: #000;
+}
